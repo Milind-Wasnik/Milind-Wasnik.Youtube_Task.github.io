@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .glass-container {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            background: url('your-background-image.jpg') center/cover no-repeat;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+            position: relative;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        #subject {
+            font-size: 1.2em;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+    <title>DIY Creations</title>
+</head>
+<body>
+    <header>
+        <div class="glass-container">
+            <h1>DIY Creations</h1>
+            <p id="subject">This Month's DIY Subject: Your Theme</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="glass-container">
+            <!-- Add content related to DIY projects and ideas here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="glass-container">
+            <p>&copy; 2024 DIY Creations</p>
+        </div>
+    </footer>
+
+    <script>
+        // You can use JavaScript to dynamically update the subject text
+        document.getElementById('subject').innerText = "This Month's DIY Subject: Your Theme";
+    </script>
+</body>
+</html>
